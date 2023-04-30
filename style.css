@@ -1,0 +1,87 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #001a1a;
+    font-family: "Georgia";
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+main {
+    background-color: teal;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 30px #00ffff, -10px -10px 30px #00ffff;
+    border: 1px solid aqua;
+    box-sizing: border-box;
+}
+
+@media (max-width: 460px) {
+    #main {
+        max-width: 100%;
+        margin: 25px;
+        line-height: 1;
+    }
+}
+
+h1 {
+    font-size: 4rem;
+    color: gold;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: gold;
+}
+
+p,
+figcaption,
+span,
+ul {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    border: 1px solid teal;
+}
+
+#img-caption {
+    margin: 0 auto;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.4rem;
+    }
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    color: gold;
+    background-color: darkred;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+a:hover {
+    background-color: gold;
+    color: black;
+    font-weight: 900;
+}
